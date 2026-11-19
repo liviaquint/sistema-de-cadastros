@@ -1,0 +1,134 @@
+
+/* PÁGINA DE ATUALIZAÇÃO */
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--azul-profundo), var(--azul-escuro));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: var(--branco);
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Cartão dos campos */
+body {
+    gap: 0;
+}
+
+/* Organização dos campos */
+label {
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 7px;
+}
+
+input {
+    width: 100%;
+    max-width: 650px;
+    padding: 13px 15px;
+    margin-bottom: 15px;
+    border: 1px solid var(--cinza-borda);
+    border-radius: 9px;
+    background: var(--branco);
+    color: var(--texto-escuro);
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: var(--laranja-principal);
+    box-shadow: 0 0 0 3px rgba(255, 98, 0, 0.15);
+}
+
+/* Campo ID */
+input:disabled {
+    background: #E2E8F0;
+    color: #64748B;
+    cursor: not-allowed;
+}
+
+/* Botões */
+button {
+    background: var(--laranja-principal);
+    color: white;
+    border: none;
+    padding: 13px 35px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--laranja-hover);
+    transform: translateY(-2px);
+}
+
+/* Link voltar */
+body > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+body > a:hover {
+    color: var(--laranja-principal);
+    background: rgba(255,255,255,0.1);
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    body {
+        padding: 25px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input {
+        max-width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin: 6px 0;
+    }
+}
+
+body > a {
+    display: inline-block;
+    background-color: var(--azul-profundo);
+    color: var(--branco);
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 35px;
+    border: 2px solid var(--branco);
+    border-radius: 9px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+body > a:hover {
+    background-color: var(--laranja-principal);
+    border-color: var(--laranja-principal);
+    color: var(--branco);
+    transform: translateY(-2px);
+}

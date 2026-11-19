@@ -1,0 +1,58 @@
+{
+  "pessoas": [
+    {
+      "id": "1",
+      "nome": "Maria",
+      "sobrenome": "Silva",
+      "cpf": "12345678900",
+      "email": "maria@email.com",
+      "senha": "123456",
+      "rua": "Rua das Flores",
+      "cep": "08700000",
+      "cidade": "Mogi das Cruzes",
+      "estado": "SP",
+      "telefone": "11999999999"
+    },
+    {
+      "id": "2",
+      "nome": "João",
+      "sobrenome": "Santos",
+      "cpf": "98765432100",
+      "email": "joao@email.com",
+      "senha": "654321",
+      "rua": "Rua Central",
+      "cep": "08710000",
+      "cidade": "Suzano",
+      "estado": "SP",
+      "telefone": "11988888888"
+    },
+    {
+      "id": "3",
+      "nome": "Ana",
+      "sobrenome": "Oliveira",
+      "cpf": "11122233344",
+      "email": "ana@email.com",
+      "senha": "112233",
+      "rua": "Avenida Brasil",
+      "cep": "08720000",
+      "cidade": "Poá",
+      "estado": "SP",
+      "telefone": "11977777777"
+    },
+    {
+      "id": "1",
+      "nome": "Admin",
+      "sobrenome": "Sistema",
+      "cpf": "0000",
+      "email": "admin@email.com",
+      "senha": "admin",
+      "rua": "Avenida Brasil",
+      "cep": "08720000",
+      "cidade": "Poá",
+      "estado": "SP",
+      "telefone": "11999999999",
+      "tipo": "admin"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

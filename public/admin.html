@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Painel Administrativo</h2>
+        <a href="bemvindo2.html">Voltar</a>
+    </header>
+
+    <main>
+
+        <h1>Cadastros realizados</h1>
+        <p>Gerencie as informações cadastradas no sistema.</p>
+
+        <div class="tabela-container">
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>CPF</th>
+                        <th>E-mail</th>
+                        <th>Senha</th>
+                        <th>Rua</th>
+                        <th>CEP</th>
+                        <th>Cidade</th>
+                        <th>Estado</th>
+                        <th>Telefone</th>
+                        <th>Tipo</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody id="lista">
+                    <tr>
+                        <td colspan="13">Carregando cadastros...</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <a href="put.html">Editar</a>
+            <a href="delete.html">Deletar</a>
+        </div>
+
+    </main>
+
+    <script src="admin.js"></script>
+
+</body>
+</html>
